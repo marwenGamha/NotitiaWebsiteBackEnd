@@ -1,0 +1,17 @@
+{
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/notitia",
+    "JWT_SECRET": "SECRET#123",
+    "JWT_EXP": "6h",
+    "EMAIL_USERNAME": "notitia.noreply@gmail.com",
+    "EMAIL_PASSWORD": "Root!root",
+    "COMPANY_EMAIL": "notitia.contact@gmail.com"
+  },
+  "production": {
+    "PORT": 80,
+    "MONGODB_URI": "mongodb://xxxxx/DB_Name",
+    "JWT_SECRET": "SECRET#123",
+    "JWT_EXP": "2m"
+  }
+}
